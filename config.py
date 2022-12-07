@@ -1,11 +1,11 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "20400887")) #optional
+API_HASH = getenv("API_HASH", "535abea1d0cc67a4be1f57de026a846f") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGO_URL = getenv("MONGO_URL")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5702610439").split()))
+OWNER_ID = int(getenv("OWNER_ID", "5702610439"))
+MONGO_URL = getenv("MONGO_URL", )
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
